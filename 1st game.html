@@ -1,7 +1,10 @@
 <script type="text/javascript">
-var guess, answer, message;
+var guess, answer, message, home;
 
+// Input//
 guess = prompt("How many times have you visited london? 0,1,2, or 3");
+
+// Response function//
 if (guess>0) {
 	message="Blue is the colour and football is the game"
 	alert(message);
@@ -10,9 +13,9 @@ if (guess>0) {
 	   message="John Terry. Captain. Leader. Legend"
     }else{
 	   message="Go support Man United"
-  }
+    }
 }else{
-message="It's ok being worldly is not for everyone"
+  message="It's ok being worldly is not for everyone"
 }
 alert(message);
 </script>
